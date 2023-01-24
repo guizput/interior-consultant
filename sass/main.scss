@@ -1,0 +1,22 @@
+// Partials
+@import 'breakpoints';
+
+// Spacers
+$spacer: 2rem;
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=PT+Serif:wght@700&family=Poppins:wght@400;600&display=swap');
+
+$font-family-base: 'Poppins';
+$display-font-sizes: (
+    1: 4rem,
+    2: 3.5rem,
+    3: 3rem,
+    4: 2.5rem,
+    5: 2rem,
+    6: 1.5rem
+);
+
+// Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
