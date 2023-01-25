@@ -20,3 +20,16 @@ $display-font-sizes: (
 // Bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
 
+// Custom style
+
+.nav-link {
+    &.active {
+        border-bottom: #fff solid;
+    }
+}
+
+.card-body {
+    bottom: 0;
+    right: 0;
+    transform: translate(-20px, 50%);
+}
